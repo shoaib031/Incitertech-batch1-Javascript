@@ -1,0 +1,165 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+.background{
+    background-color: lightslategrey;
+    width: 100%;
+}
+.navbar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+    color: white;
+    height: 80px;
+    width: 100%;
+}
+.good h3{
+    font-size: 20px;
+    font-weight: 500px;
+    font-family: sans-serif;
+}
+.button{
+    display: flex;
+    flex-direction: row;
+}
+.button1{
+    background-color: white;
+    height: 35px;
+    width: 120px;
+    color: black;
+    font-size: 20px;
+    font-weight: 500px;
+    font-family: sans-serif;
+    margin-right: 50px;
+    text-align: center;
+    padding-top: 17px;
+    border-radius: 40px;
+}
+
+.header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-top: 100px;
+}
+.balance h3{
+    font-size: 20px;
+    font-weight: 500px;
+    font-family: sans-serif;
+    color: black;
+}
+.balance p{
+    font-size: 20px;
+    font-weight: 500px;
+    font-family: sans-serif;
+}
+
+.amount h1{
+    font-size: 30px;
+    font-weight: 500px;
+    font-family: sans-serif;
+    
+    color: black;
+}
+.body{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;   
+    margin-top: 40px;
+}
+.total{
+    background-color: white;
+    height: 535px;
+    width: 30%;
+    border-radius: 20px;
+}
+.money{
+    background-color: yellow;
+    height: 120px;
+    width: 370px;
+    border-radius: 20px;
+}
+.dide{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 20px;
+}
+.dide button{
+    background-color: green;
+    color: white;
+    border: none;
+    border-radius: 20px;
+    width: 90px;
+    height: 25px;
+}
+.line{
+    margin-top: 30px;
+}
+.dide button.red{
+    background-color: red;
+    color: white;
+    border: none;
+    border-radius: 20px;
+    width: 120px;
+    height: 25px;
+}
+.money b{
+    padding: 20px;
+}
+.money input{
+    margin-left: 5px;
+    margin-top: 20px;
+    height: 35px;
+    border: none;
+    border-radius: 10px;
+}
+.text{
+    display: flex;
+    flex-direction: row;
+}
+.class p{
+    margin-left: 56px;
+    margin-top: 10px;
+    font-size: 20px;
+    font-weight: 500px;
+    font-family: sans-serif;
+}
+.money1{
+    background-color: green;
+    height: 120px;
+    width: 370px;
+    border-radius: 20px;
+    margin-top: 50px;
+}
+.money1 input{
+    margin-left: 5px;
+    margin-top: 20px;
+    height: 35px;
+    border: none;
+    border-radius: 10px;
+}
+.money1 b{
+    padding: 20px;
+}
+.money2{
+    background-color: red;
+    height: 120px;
+    width: 370px;
+    border-radius: 20px;
+    margin-top: 50px;
+}
+.money2 input{
+    margin-left: 5px;
+    margin-top: 20px;
+    height: 35px;
+    border: none;
+    border-radius: 10px;
+}
+.money2 b{
+    padding: 20px;
+}
